@@ -501,8 +501,42 @@
     border-top: 2px solid #D10024;
 }
 .footer-1{
-    height: 400px;
+    height: 350px;
     width: 100%;
     background: #15161d;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 10px;
+    
+}
+.about h2{
+    text-transform: uppercase;
+    font-family:monospace;
+    font-size: 30px;
+}
+.about p{
+    margin-top: 10px;
+}
+.about i{
+    position: relative;
+    left: -10px;
+    color: #D10024;
+}
+.about ul li{
+    margin-top: 15px;
+    list-style: none;
+    margin-left: 2px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.about ul li:hover{
+    color: #D10024;
+}
+.cards i{
+    font-size: 40px;
+   position: relative;
+   left: 40%;
+   top: 40px;
 }
